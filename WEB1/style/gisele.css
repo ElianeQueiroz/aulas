@@ -1,33 +1,37 @@
 body{ 
-    background-color: tomato;
+    background-color: white;
 }
 
 header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: floralwhite;
+    color: white;
+    background-color: tomato;
     padding: 30px 30px 15px 20px;
 }
 
 div{
     text-align: center;
+    background-color: white;    
 }
 
 button{
     width: 80px;
     height: 30px;
-    background-color: rgba(255, 81, 0, 0.712);
-    color: white;
-    border-width: 0px;
+    background-color: white;
+    border-color: tomato;
+    color: tomato;
+    border-width: 1px;
 }
 
 button:hover{
-    background-color:red;
+    background-color: tomato;
+    color: white;
 }
 
 label{
     font-family: Arial, Helvetica, sans-serif;
-    color: floralwhite;
+    color: black;
     text-align: center;
     font-size: 12px;
 }
@@ -42,8 +46,7 @@ label{
  }
 
 .flex-container > div {
-    width: 25%;
-    color: white;
+    color:black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -51,6 +54,7 @@ label{
 }
 
 #divborda{
+    width: 25%;
     border-right: 1px solid;
     border-left: 0px;
     border-top: 0px;
@@ -61,7 +65,7 @@ label{
 #divbordaheader{
     border-right: 0px;
     border-left: 0px;
-    border-top: 2px solid;
+    border-top: 0px;
     border-bottom: 2px solid;
     border-color: rgb(206, 63, 38);
 }
@@ -76,5 +80,57 @@ label{
 
 hr{
     border-width: 0px;
+    background-color: white;
 }
 
+#divhr{
+    width: 75%;
+}
+
+#hr{
+    border-width: 0.5px;
+    border-color: rgb(206, 63, 38);
+    width: 100%;  
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#divlabel{
+    padding: 0px;
+}
+
+#divborda1{
+    width: 25%;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+#titulo{
+    color: tomato;
+}
+
+p {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h4 {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+
+#titulo1{
+    text-align: justify;
+}
