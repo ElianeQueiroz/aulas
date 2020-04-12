@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <title>WEB1</title>
+    <link rel="stylesheet" href="style/contato.css">
+</head>
+<body>
+    <header> Desenvolvimento Web I </header>
+    <div id="divbutton">
+       
+          <hr>
+          <button onclick="window.location.href='index.html'">Index</button>
+          <button onclick="window.location.href='eliane.html'">Eliane</button>
+          <button onclick="window.location.href='gisele.html'">Gisele</button>
+          <button onclick="window.location.href='lukinhas.html'">Lucas</button>
+          <button>Contato</button>
+          <hr>
+       </div>
+       <div>     
+           
+        <hr>
+       <div id="divbordabottom">
+
+       </div>
+       <div>
+          <hr>
+          
+          <form name="conato">
+ 
+            <h3>Formulário de contato</h3>
+     
+            <p>
+                <h5><b>Nome:</b></h5>
+                <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+            </p>
+            <p>
+                <h5><b>E-mail:</b></h5>
+                <input type="email" id="emailid" placeholder="email@mail.com" name="email" />
+            </p>
+            <p>
+                <h5><b>Fone:</b></h5>
+                <input type="text" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />     
+            </p>
+            <p>
+                <h5 for="prioridade"><b>Prioridade:</b></h5>
+                <select type="text" id="prioridade">
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                  </select>
+            </p>
+            <p>
+                <h5><b>Mensagem:</b></h5>
+                <textarea></textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" onclick="Enviar();" value="Enviar" />
+            </p>
+     
+          </form>         
+       </div>
+     
+       <div id="divbordabottom" class="divlabel">
+          <hr>
+          <label>© Desenvolvido por Eliane, Gisele e Lucas - 2020.</label>
+          <hr>
+       </div>        
+    </div>
+</body>
+   <script src="javascript/contato.js" type="text/javascript"></script>
+</html>
